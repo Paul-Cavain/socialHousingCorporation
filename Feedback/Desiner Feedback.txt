@@ -1,0 +1,12 @@
+01: QUESTIONS AND REMARK FOR A DESIN
+
+i) What was the expected responsive design for mobile and tablet? such as how the navbar should open and close in mobile devices.
+  
+ii) What to hide and display or there were none component should be hidden in a mobile devices?
+
+iii) Was it necessary to add links for the navbar links like Ik huur, Ik zoek and even navbar icons for search and person icons, as well as in contact, Reparative melden as once clicked we can navigate to the expected contents?
+
+iv) Well described and cleared structured design.
+
+v) Naming conversions from the design somehow makes code difficult in understanding based on  comments in code segments
+

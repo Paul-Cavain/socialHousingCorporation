@@ -1,0 +1,7 @@
+DELIVERABLE FEEDBACK
+
+01. A GitHub repository link has already sent to Leandes email.
+
+02. A README file that explain how to set up and run project locally is in a project repository
+
+03. A document outlining my approach to responsiveness is in Responsive Design Feedback file and feedback about the designer is in Designer Feedback file
