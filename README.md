@@ -10,49 +10,52 @@ Before you start, make sure you have the following installed tools on your compu
 
 ### 1. Clone the Repository
 
-  #### a. Find the GitHub Repository URL
-    Go to the GitHub page of the React project you want to run. Click the "Code" button and copy the repository URL.
+  ---
+  - ##### Find the GitHub Repository URL
+  Go to the GitHub page of the React project you want to run. Click the "Code" button and copy the repository URL.
 
-  #### b. Open a Terminal or Command Prompt
-    On Windows, you can use Command Prompt or PowerShell. On macOS or Linux, use the terminal.
 
-  #### c. Clone the Repository
-    Run the following command, replacing <repository-url> with the URL you copied:
-  #### git clone <repository-url>
+  - ##### Open a Terminal or Command Prompt
+  On Windows, you can use Command Prompt or PowerShell. On macOS or Linux, use the terminal.
 
-  Example:
-  ### git clone https://github.com/username/repository-name.git
 
-  ### d. Navigate into the Project Directory
+  - ##### Clone the Repository
+        git clone <repository-url>
+  Run the following command, replacing <repository-url> with the URL you copied:
+
+  ##### Example:
+    git clone https://github.com/username/repository-name.git
+
+  - ##### Navigate into the Project Directory
+        cd repository-name
   Change to the directory of the cloned repository:
-  ### cd repository-name
   Replace repository-name with the actual directory name of your cloned project.
 
-### 2. Install Dependencies
-  ### a. Ensure You’re in the Project Directory
+#### 2. Install Dependencies
+---
+  - ##### Ensure You’re in the Project Directory
+        ls
   Verify you are in the correct directory where the package.json file is located:
-  ### ls
   You should see a file named package.json.
 
-  ### b. Install Node Modules
-  Run the following command to install the necessary dependencies:
-  ### npm install
+  - ##### Install Node Modules
+        npm install
+  Run the command above to install the necessary dependencies:
 
-  Alternatively, if you use Yarn as your package manager, run:
-
-  ### yarn install
+  ##### Alternatively, if you use Yarn as your package manager, run:
+        yarn install
 
 ### 3.  Run the React Project
-  ## a. Start the Development Server
-  Once the dependencies are installed, you can start the development server by running:
-  ### npm start
+---
+  - ##### Start the Development Server
+  ###### Once the dependencies are installed, you can start the development server by running:
+      npm start
 
-  Or, if using Yarn:
-  ### yarn start
-
+  ###### Or, if using Yarn:
+      yarn start
   This command will start the React development server and open the project in your default web browser.
 
-  ### 2. View the Project
+  - ##### View the Project
   The React development server typically runs on http://localhost:3000. Open this URL in your browser if it doesn’t open automatically.
 
 
