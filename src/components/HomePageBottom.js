@@ -1,15 +1,22 @@
 const HomePageBottom = () => {
     return(
-        <section className="flex flex-col md:flex-row md:justify-between justify-start px-8 md:px-20 py-4">
-            <div>
-                <ul className="flex flex-col md:flex-row md:space-x-8 underline text-darkgray">
-                    <li>Privacy</li>
-                    <li>Cookieverklaring</li>
-                    <li>Disclaimer</li>
-                </ul>
+        <section className="grid grid-cols-2 lg:grid-cols-4 px-8 md:px-20 py-4">
+            <div className="flex flex-row gap-4">
+                <div className="underline text-darkgray">
+                    <span>Privacy</span>
+                </div>
+                <div className="underline text-darkgray">
+                    <span>Cookieverklaring</span>
+                </div>
+                <div className="underline text-darkgray">
+                <span>Disclaimer</span>
+                </div>
             </div>
-            <div className="text-darkgray">
-                <span>© KnusWonen 2024</span>
+            {/* <div className="underline text-darkgray">
+                <span>Disclaimer</span>
+            </div> */}
+            <div className="flex text-darkgray">
+                <span>&copy; KnusWonen 2024</span>
             </div>
         </section>
     );
