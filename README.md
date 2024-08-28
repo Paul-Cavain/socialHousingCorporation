@@ -1,4 +1,4 @@
-# How to Run a React Project from GitHub after installation
+# How to Run a SocialHousingCorporation
 ![social](https://github.com/user-attachments/assets/7a07609a-d537-4032-a549-8fc8ec351220)
 
 ## `Prerequisites`
