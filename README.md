@@ -1,4 +1,5 @@
 # How to Run a React Project from GitHub after installation
+![social](https://github.com/user-attachments/assets/7a07609a-d537-4032-a549-8fc8ec351220)
 
 ## Prerequisites
 Before you start, make sure you have the following installed tools on your computer:
